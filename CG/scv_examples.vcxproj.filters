@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Canvas">
+      <UniqueIdentifier>{737ff2c3-3cc9-41b9-8d9f-7a1516b0048e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Canvas">
+      <UniqueIdentifier>{73884bea-42fd-467b-a4b0-da977b290d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maths">
+      <UniqueIdentifier>{6c96f2ff-faa5-4736-9a1f-6be538f1a930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{e4a1ed84-dd5c-4b5b-af08-d64568e6a748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input">
+      <UniqueIdentifier>{919be511-7e01-42fd-ade3-ad48bf7b407a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{08ef516e-c853-4bb9-b243-44f9b340fb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Planes">
+      <UniqueIdentifier>{10437f1c-09aa-41a6-9e96-8ab4a89c1e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{ae34a3b5-dad9-4bd1-bc78-723b22c489eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Canvas\CanvasDraw.h">
+      <Filter>Header Files\Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matriz\Matriz.hpp">
+      <Filter>Header Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matriz\Matriz_Functions.hpp">
+      <Filter>Header Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ComboBoxPlanes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input\Input.h">
+      <Filter>Header Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects\Cube.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects\Ellipsoid.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects\Sphere.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Objects\SuperEllipsoid.hpp">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Planes\Bezier.hpp">
+      <Filter>Header Files\Planes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\mCamera.hpp">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Planes\BSpline.hpp">
+      <Filter>Header Files\Planes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Labels.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SCV_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Canvas\CanvasDraw.cpp">
+      <Filter>Source Files\Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input\Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
